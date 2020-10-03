@@ -26,3 +26,5 @@ func (r *RoutineContainers) Run() {
 	r.Wg.Wait()
 	r.Contains = r.Contains[:0]
 }
+
+// 新加的代码
